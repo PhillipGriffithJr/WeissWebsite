@@ -1,0 +1,43 @@
+Front Page:
+   - Recent Tournament Results
+   - Top decks of the month (by highest win % with the most games played) and their best matchups
+   - Popular Decks (decks with the highest play rate)
+
+Tabs:
+   - Profile
+      - Total Games Played
+      - Win %
+      - Most played decks
+      - Win rate per deck
+   
+   - Deck Stats (Different stats for JP and EN)
+      - Top decks by month, by year, by all time
+         - Sort decks by overall win percentage
+            - filter out decks with less than X games played by default?
+         - Show total games played
+         - Option for last X games played with this deck
+      - Popular Decks
+         - all time and by month
+      - Clicking on a deck will show its matchups by win %
+         - Show total games against a given deck
+      - Casual Stats (Kitchen Table, Casuals in Shop)
+      - Local Stats (Shop Tournaments), needs mod approval so that we don't get duplicates
+      - Competitive Stats (Official/Organized Tournaments)
+         - Different submission process, needs mod approval
+
+   - Stats Submission
+      - Personal Submissions
+         - only show up in your profile and casual stats
+	 - mark if you won or lost, the deck you played, the deck you played against, maybe some misc info (burns done, cards healed etc.)
+	 - Submit decklist (wsdecks link or image)
+      - Tournament Submissions
+         - Name of the tournament
+	 - Number of participants
+	 - Rankings of top cut (whole tournament if local tournament)
+	 - Wins for each round in the tournament (Deck X won against Deck Y)
+
+   - Decks
+      - Ability to like decks
+      - These decks will show up in various places
+
+	 
