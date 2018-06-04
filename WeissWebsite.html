@@ -7,27 +7,34 @@
 </head>
 
 <body>
-    <nav>
+    <script src = "FrontPageScripts.js"></script>
+
+    <!-- Set up the sidebar -->
+    <div id = "sidebar" class = "sidenav">
+        <a href = "javascript:void(0)" class = "closebtn" onclick = "closeNav()">&times;</a>
         <a href = "./DeckStats.html">Deck Stats</a>
         <a href = "./DecksList.html">Decks</a>
         <a href = "./SubmissionPage.html">Submit Record</a>
         <a href = "./MyProfile.html">My Stats</a>
-    </nav>
-    <h1 style = "text-align: center;">Weiss Schwarz Stats</h1>
-    <div id = "FrontResults">
-        <h2>Recent Results</h2>
-        <h3>English</h3>
-        <h3>Japanese</h3>
     </div>
-    <div id = "FrontTopDecks">
-        <h2>Top Decks</h2>
-        <h3>English</h3>
-        <h3>Japanese</h3>
-    </div>
-    <div id = "FrontPopDecks">
-        <h2>Popular Decks</h2>
-        <h3>English</h3>
-        <h3>Japanese</h3>
+    <span onclick = "openNav()">open</span> <!-- Anything can be used to open the sidebar -->
+    <div id = "main">
+        <h1 style = "text-align: center;">Weiss Schwarz Stats</h1>
+        <div id = "FrontResults">
+            <h2>Recent Results</h2>
+            <h3>English</h3>
+            <h3>Japanese</h3>
+        </div>
+        <div id = "FrontTopDecks">
+            <h2>Top Decks</h2>
+            <h3>English</h3>
+            <h3>Japanese</h3>
+        </div>
+        <div id = "FrontPopDecks">
+            <h2>Popular Decks</h2>
+            <h3>English</h3>
+            <h3>Japanese</h3>
+        </div>
     </div>
 </body>
 

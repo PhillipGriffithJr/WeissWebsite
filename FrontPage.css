@@ -1,18 +1,68 @@
 #FrontResults {
     float: left;
-    width: 33.33333%;
-    text-align: left;
+    width: 25%;
+    text-align: center;
 }
 
 #FrontTopDecks {
     float: left;
-    width: 33.33333%;
+    width: 50%;
     text-align: center;
     
 }
 
 #FrontPopDecks {
     float: left;
-    width: 33.33333%;
-    text-align: right;
+    width: 25%;
+    text-align: center;
+}
+
+/* The sidebar */
+.sidenav {
+    height: 100%; /* full height of the page */
+    width: 0; /* this will change with the javascript code*/
+    position: fixed;
+    z-index: 1; /* stays on top of the page */
+    top: 0; /* how far from the top of its container */
+    left: 0; /* how far from the left of its container */
+    background-color: #111; /* black */
+    overflow-x: hidden; /* disable horizontal scroll */
+    padding-top: 60px; /* put content 60 pixels from top */
+    transition: .5s; /* the transition time for the sidebar animation */
+}
+
+/* sidebar menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px; /* top, right, bottom, left */
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: .3s;
+}
+
+/* change a links' color when you mouse over it */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* position and style the close button */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* push content to the right */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* change the size of the sidebar on mobile */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
