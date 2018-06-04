@@ -1,3 +1,7 @@
+body {
+    background: rgb(189, 185, 185)
+}
+
 #FrontResults {
     float: left;
     width: 25%;
