@@ -1,3 +1,18 @@
-div {
+#FrontResults {
+    float: left;
+    width: 33.33333%;
+    text-align: left;
+}
+
+#FrontTopDecks {
+    float: left;
+    width: 33.33333%;
     text-align: center;
+    
+}
+
+#FrontPopDecks {
+    float: left;
+    width: 33.33333%;
+    text-align: right;
 }
