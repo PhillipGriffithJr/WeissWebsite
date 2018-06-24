@@ -1,34 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-        <link href = "./RegistrationForm.css" type = "text/css" rel = "stylesheet">
-        <title>WS Stats</title>
-</head>
-
-<form action = "" method = "post">
-    <div class = "fields">
-        <h1>Register</h1>
-        <p><?php if($passwordError !== ""){echo $passwordError;}else{echo "Fill out the fields to make an account."} ?></p>
-        <hr>
-
-        <label for = "email"><b>Email</b></label>
-        <input type = "email" placeholder = "Email Address" name = "email" required>
-
-        <label for = "username"><b>Username</b></label>
-        <input type = "text" placeholder = "Username" name = "username" required>
-
-        <label for = "password"><b>Password</b></label>
-        <input type = "password" placeholder = "Password" name = "password" required>
-
-        <label for = "retype_password"><b>Re-Type Password</b></label>
-        <input type = "password" placeholder = "Re-Type Password" name = "retype_password" required>
-
-        <button type = "submit" class = registerButton>Register</button>
-        <hr>
-    </div>
-</form>
-
 <?php
 $registered_name = $registered_password = $registered_email = $retyped_password = "";
 
@@ -87,5 +56,3 @@ else {
 $connection->close();
 
 ?>
-
-</html>

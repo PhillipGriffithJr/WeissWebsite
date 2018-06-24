@@ -1,5 +1,9 @@
 * {box-sizing: border-box}
 
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
 body {
     background: rgb(189, 185, 185);
     text-align: center;
